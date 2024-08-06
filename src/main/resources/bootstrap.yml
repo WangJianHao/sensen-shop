@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      # nacos 服务注册
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: sensen-shop
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: sensen-shop
+        group: DEFAULT_GROUP
+        file-extension: yaml
